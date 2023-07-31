@@ -5,6 +5,43 @@ body{
     font-family: 'Merriweather', serif;
 }
 /* 100% = 16px = 1em or rem */
+
+nav {
+    background-color: #40514E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding-left: 800px;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    padding: 15px;
+  }
+  
+
 h1{
     color: #68BFBF;
     margin: 50px auto 0 auto;
